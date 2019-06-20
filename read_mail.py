@@ -2,8 +2,8 @@ import email
 import imaplib
 
 
-username = 'rahul.kumar25011999@gmail.com'
-password = '07sainty'
+username = 'your_email_id'
+password = 'your_password'
 
 mail = imaplib.IMAP4_SSL('imap.gmail.com')
 mail.login(username, password)
